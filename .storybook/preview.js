@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
   a {
-    color: inherit;
+    transition: 0.25s;
     text-decoration: none;
     color: #000000;
   }
@@ -53,7 +53,7 @@ Object.defineProperty(NextImage, "default", {
     ),
 });
 
-objectExpression.defineProperty(NextImage, "_esModule", {
+Object.defineProperty(NextImage, "__esModule", {
   configurable: true,
   value: true,
 });
